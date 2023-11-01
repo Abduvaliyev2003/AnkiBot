@@ -4,7 +4,7 @@ require_once './Telegram.php';
 require_once './Model/User.php';
 require_once './page/Page.php';
 // Replace 'YOUR_API_TOKEN' with the actual API token provided by BotFather
-$apiToken = "';
+$apiToken = "";
 
 $telegram = new Telegram($apiToken);
 
