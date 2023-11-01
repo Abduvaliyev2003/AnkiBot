@@ -9,23 +9,47 @@ class Func {
     private $chat_id;
     private $user;
     private $lang;
+    public $page;
     public function __construct($telegram , $chat_id)
     {
         $this->telegram = $telegram;
         $this->chat_id = $chat_id;
         $this->user = new User($chat_id);
         $this->lang = new Text($this->user->getLang());
+        $this->page = new Page();
     }
 
-    function showStart()
+    public function showStart()
     {
-        global $user;
-        $this->user->setPage(Page::START);
+      
+        $this->user->create();
         $buttons = ["🇷🇺 Русский", "🇺🇿 O'zbekcha"];
         $textToSend = "Пожалуйста выберите язык. 👇\n\nIltimos, tilni tanlang. 👇";
         $this->sendTextWithKeyboard($buttons, $textToSend);
     }
+    
 
+    public function showMenu()
+    {
+        $this->user->setPage($this->page::PAGE_MAIN);
+        $buttons = [
+            "🗂 Kartalar", 
+            "🗳 Yaratish karta",
+            "🗃 So`zlar",
+            '📊 Statistika',
+            '⚙️ Sozlamalar',
+            "📝 Izoh"
+        ];
+        $textToSend = "
+         🧠 Anki boti so'zlarni oraliq takrorlash bilan yodlashni osonlashtiradi. " . PHP_EOL;
+        $textToSend .= 
+        "🔮 Bot: 
+        • so'zlarni iboralarni va ularning tarjimasini saqlash; 
+        • so`zlarning tarjimasini ko`rsatish; 
+        • so`z necha kundan keyin keyingi safar ko`rsatilishini belgilash "; 
+        $this->sendTextWithKeyboard($buttons, $textToSend);
+
+    }
 
 
     protected function sendMessage ($text){
@@ -35,7 +59,7 @@ class Func {
         ]);
     }
 
-    function sendTextWithKeyboard($buttons, $text, $backBtn = false)
+    protected function sendTextWithKeyboard($buttons, $text, $backBtn = false)
     {
     
         $option = [];
@@ -50,7 +74,7 @@ class Func {
             $option[] = array($this->telegram->buildKeyboardButton(end($buttons)));
         }
         if ($backBtn) {
-            $option[] = [$this->telegram->buildKeyboardButton($text->getText("back_btn"))];
+            $option[] = [$this->telegram->buildKeyboardButton($this->lang->getText("back_btn"))];
         }
         $keyboard = $this->telegram->buildKeyBoard($option, $onetime = false, $resize = true);
         $content = array('chat_id' => $this->chat_id, 'reply_markup' => $keyboard, 'text' => $text, 'parse_mode' => "HTML");

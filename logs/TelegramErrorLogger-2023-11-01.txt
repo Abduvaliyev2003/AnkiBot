@@ -91,3 +91,260 @@ ref.text=
 #3 C:\Users\User\Desktop\bot\ankiBot\index.php(22): Telegram->sendMessage()
 #4 {main}
 
+============[Date]============
+[ 2023-11-01 15:07:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "br/" at byte offset 93
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157856
+ref.message.message_id= 119
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1698840437
+ref.message.text= 🇺🇿 O'zbekcha
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\ud83d\uddc2 Kartalar","request_contact":false,"request_location":false},{"text":"\ud83d\uddf3 Yaratish karta","request_contact":false,"request_location":false}],[{"text":"\ud83d\uddc3 so`zlar","request_contact":false,"request_location":false},{"text":"\ud83d\udcca Statistika","request_contact":false,"request_location":false}],[{"text":"\u2699\ufe0f Sozlamalar","request_contact":false,"request_location":false},{"text":"\ud83d\udcdd Izoh","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= 🧠 Anki boti so'zlarni oraliq takrorlash bilan yodlashni osonlashtiradi.
+        🔮 Bot:<br/>
+        • so'zlarni/iboralarni va ularning tarjimasini saqlash; <br/>
+        • so`zlarning tarjimasini ko`rsatish; <br/>
+        • so`z necha kundan keyin keyingi safar ko`rsatilishini belgilash
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(79): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(48): Func->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(30): Func->showMenu()
+#6 {main}
+
+============[Date]============
+[ 2023-11-01 15:08:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "br/" at byte offset 93
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157859
+ref.message.message_id= 123
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1698840497
+ref.message.text= 🇷🇺 Русский
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\ud83d\uddc2 Kartalar","request_contact":false,"request_location":false},{"text":"\ud83d\uddf3 Yaratish karta","request_contact":false,"request_location":false}],[{"text":"\ud83d\uddc3 so`zlar","request_contact":false,"request_location":false},{"text":"\ud83d\udcca Statistika","request_contact":false,"request_location":false}],[{"text":"\u2699\ufe0f Sozlamalar","request_contact":false,"request_location":false},{"text":"\ud83d\udcdd Izoh","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= 🧠 Anki boti so'zlarni oraliq takrorlash bilan yodlashni osonlashtiradi.
+        🔮 Bot:<br/>
+        • so'zlarni/iboralarni va ularning tarjimasini saqlash; <br/>
+        • so`zlarning tarjimasini ko`rsatish; <br/>
+        • so`z necha kundan keyin keyingi safar ko`rsatilishini belgilash
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(79): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(48): Func->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(36): Func->showMenu()
+#6 {main}
+
+============[Date]============
+[ 2023-11-01 15:09:01  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "br/" at byte offset 93
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157861
+ref.message.message_id= 126
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1698840540
+ref.message.text= 🇺🇿 O'zbekcha
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\ud83d\uddc2 Kartalar","request_contact":false,"request_location":false},{"text":"\ud83d\uddf3 Yaratish karta","request_contact":false,"request_location":false}],[{"text":"\ud83d\uddc3 so`zlar","request_contact":false,"request_location":false},{"text":"\ud83d\udcca Statistika","request_contact":false,"request_location":false}],[{"text":"\u2699\ufe0f Sozlamalar","request_contact":false,"request_location":false},{"text":"\ud83d\udcdd Izoh","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= 🧠 Anki boti so'zlarni oraliq takrorlash bilan yodlashni osonlashtiradi.
+        🔮 Bot:<br/>
+        • so'zlarni/iboralarni va ularning tarjimasini saqlash; <br/>
+        • so`zlarning tarjimasini ko`rsatish; <br/>
+        • so`z necha kundan keyin keyingi safar ko`rsatilishini belgilash
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(79): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(48): Func->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(30): Func->showMenu()
+#6 {main}
+
+============[Date]============
+[ 2023-11-01 15:13:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "br" at byte offset 75
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157864
+ref.message.message_id= 131
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1698840790
+ref.message.text= 🇺🇿 O'zbekcha
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\ud83d\uddc2 Kartalar","request_contact":false,"request_location":false},{"text":"\ud83d\uddf3 Yaratish karta","request_contact":false,"request_location":false}],[{"text":"\ud83d\uddc3 so`zlar","request_contact":false,"request_location":false},{"text":"\ud83d\udcca Statistika","request_contact":false,"request_location":false}],[{"text":"\u2699\ufe0f Sozlamalar","request_contact":false,"request_location":false},{"text":"\ud83d\udcdd Izoh","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= 🧠 Anki boti so'zlarni oraliq takrorlash bilan yodlashni osonlashtiradi. <br>
+        🔮 Bot: 
+
+        • so'zlarni/iboralarni va ularning tarjimasini saqlash; 
+
+        • so`zlarning tarjimasini ko`rsatish; 
+
+        • so`z necha kundan keyin keyingi safar ko`rsatilishini belgilash
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(79): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(48): Func->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(30): Func->showMenu()
+#6 {main}
+
+============[Date]============
+[ 2023-11-01 15:15:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "p" at byte offset 0
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157868
+ref.message.message_id= 138
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1698840917
+ref.message.text= 🇺🇿 O'zbekcha
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\ud83d\uddc2 Kartalar","request_contact":false,"request_location":false},{"text":"\ud83d\uddf3 Yaratish karta","request_contact":false,"request_location":false}],[{"text":"\ud83d\uddc3 so`zlar","request_contact":false,"request_location":false},{"text":"\ud83d\udcca Statistika","request_contact":false,"request_location":false}],[{"text":"\u2699\ufe0f Sozlamalar","request_contact":false,"request_location":false},{"text":"\ud83d\udcdd Izoh","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= <p>
+        🧠 Anki boti so'zlarni oraliq takrorlash bilan yodlashni osonlashtiradi. <br /> 
+        🔮 Bot: 
+        • so'zlarni iboralarni va ularning tarjimasini saqlash; 
+        • so`zlarning tarjimasini ko`rsatish; 
+        • so`z necha kundan keyin keyingi safar ko`rsatilishini belgilash </p>
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(80): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(49): Func->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(30): Func->showMenu()
+#6 {main}
+
+============[Date]============
+[ 2023-11-01 15:15:29  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "p" at byte offset 0
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157870
+ref.message.message_id= 141
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1698840928
+ref.message.text= 🇺🇿 O'zbekcha
+
+
+[ref]
+ref.reply_markup= {"keyboard":[[{"text":"\ud83d\uddc2 Kartalar","request_contact":false,"request_location":false},{"text":"\ud83d\uddf3 Yaratish karta","request_contact":false,"request_location":false}],[{"text":"\ud83d\uddc3 so`zlar","request_contact":false,"request_location":false},{"text":"\ud83d\udcca Statistika","request_contact":false,"request_location":false}],[{"text":"\u2699\ufe0f Sozlamalar","request_contact":false,"request_location":false},{"text":"\ud83d\udcdd Izoh","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.text= <p>
+        🧠 Anki boti so'zlarni oraliq takrorlash bilan yodlashni osonlashtiradi. 
+        🔮 Bot: 
+        • so'zlarni iboralarni va ularning tarjimasini saqlash; 
+        • so`zlarning tarjimasini ko`rsatish; 
+        • so`z necha kundan keyin keyingi safar ko`rsatilishini belgilash </p>
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(80): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(49): Func->sendTextWithKeyboard()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(30): Func->showMenu()
+#6 {main}
+

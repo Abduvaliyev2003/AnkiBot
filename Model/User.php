@@ -26,12 +26,13 @@ class User {
             $store->execute();
             return true;
         }
+        $this->setPage('start');
         return false;
     }
 
-    function setPage($page)
+    public function setPage($page)
     {
-        return $this->setValue("page= $page");
+        return $this->setValue("UPDATE `users` SET `page` ='{$page}' WHERE chat_id = '{$this->chatID}'");
     }
 
     public function getPage()
@@ -41,7 +42,7 @@ class User {
     }
     
     public function setLang($lang){
-        return $this->setValue("lang= $lang");
+        return $this->setValue("UPDATE `users` SET lang ='{$lang}' WHERE chat_id = '{$this->chatID}'");
     }
 
     public function getLang(){
@@ -50,9 +51,10 @@ class User {
     }
 
     
-    public function setValue($data)
+    public function setValue($sql)
     {
-        return $this->pdos->prepare("UPDATE `users` SET '{$data}' WHERE chat_id = '{$this->chatID}'");
+        $result =  $this->pdos->prepare($sql);
+        $result->execute();
     }
     
     public  function getKeyValue($key)
