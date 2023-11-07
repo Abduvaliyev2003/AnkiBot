@@ -12,10 +12,11 @@ class Comment
         $this->pdo = $pdo;
     }
 
-    public function setComment($chat_id)
+    public function setComment($chat_id, $text)
     {
-        $store =   $this->pdo->prepare("INSERT INTO `comments` (`chat_id`) VALUES (:chat_id)");
+        $store =   $this->pdo->prepare("INSERT INTO `comments` (`chat_id`, `text`) VALUES (:chat_id,:text)");
         $store->bindParam(':chat_id',$chat_id, PDO::PARAM_INT);
+        $store->bindParam(':text',$text);
         $store->execute();
         return true;
     }

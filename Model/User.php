@@ -45,6 +45,11 @@ class User {
         return $this->setValue("UPDATE `users` SET lang ='{$lang}' WHERE chat_id = '{$this->chatID}'");
     }
 
+    public function updateBox($id):void
+    {
+        $this->setValue("UPDATE `users` SET cart_id ='{$id}' WHERE chat_id = '{$this->chatID}'");
+    }
+
     public function getLang(){
         $data = $this->getData();
         return $data['lang'];
