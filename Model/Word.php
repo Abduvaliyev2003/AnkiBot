@@ -28,7 +28,15 @@ class Word {
         ]
         );
     }
+    public function getCount()
+    {
+        $chatID = $this->chatID;
+        $data = $this->groupBy(
+           "SELECT COUNT(*) FROM `words` WHERE chat_id='$chatID'"
+        );
 
+        return $data;
+    }
     public function getOne( int $card_id){
         $chatID = $this->chatID;
         $data = $this->groupBy(

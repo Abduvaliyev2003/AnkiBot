@@ -15,7 +15,8 @@ class Page
           PAGE_SETTING = 'page_setting',
           PAGE_COMMENT = 'page_comment',
           PAGE_LANG = 'page_lang',
-          PAGE_ADD_WORD = 'page_add_word';
+          PAGE_ADD_WORD = 'page_add_word',
+          PAGE_WORDS = 'page_words';
 
 }
 

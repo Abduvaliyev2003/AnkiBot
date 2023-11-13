@@ -27,7 +27,6 @@ class Func {
 
     public function showStart()
     {
-      
         $this->user->create();
         $buttons = ["🇷🇺 Русский", "🇺🇿 O'zbekcha"];
         $textToSend = "Пожалуйста выберите язык. 👇\n\nIltimos, tilni tanlang. 👇";
@@ -42,7 +41,7 @@ class Func {
             "🗂 Kartalar", 
             "🗳 Yaratish karta",
             "🗃 So`zlar",
-            '📊 Statistika',
+            // '📊 Statistika',
             '⚙️ Sozlamalar',
             "📝 Izoh"
         ];
@@ -90,7 +89,6 @@ class Func {
     {
         $buttons = ['🔙 Orqaga', 'Cardni toldrish'];
         $card_id = $this->card->storeCard($text);
-       
         $this->user->updateBox($card_id);
         $textToSend = "Card yaratildi";
         $this->sendTextWithKeyboard($buttons, $textToSend);
@@ -116,8 +114,8 @@ class Func {
     
     public function allCard()
     {  
-      
         $buttons = [];
+      
         $buttons[] = '🔙 Orqaga';
         $buttons[] = '🗳 Yaratish karta';
         foreach($this->card->getCard() as $value)
@@ -128,22 +126,34 @@ class Func {
         $this->sendTextWithKeyboard($buttons, "hamma cardlar");
     }
 
+
+    public function words()
+    { 
+        $this->user->setPage($this->page::PAGE_ALL_WORDS ); 
+        $count =   $this->word->getCount();
+        $text = "Umumiy  so`zlar soni:  " . $count[0][0] ?? null;
+        $buttons = ['🔙 Orqaga', 'Hammasni korish'];
+        $this->sendTextWithKeyboard($buttons,$text);
+    }
+
     public function cardWords($text)
     {
         $data = $this->card->getOne('name', $text);
-     
+        $this->user->setPage($this->page::PAGE_WORDS);
         $words = $this->word->getOne(intval($data[0]['id']));
-      
+        $this->user->updateBox($data[0]['id']);
         if($words == [])
         {
-            $this->sendMessage('So`zlar yoq ');
+           
+            $buttons = ['🔙 Orqaga', 'Cardni toldrish'];
+            $this->sendTextWithKeyboard($buttons,'So`zlar yoq ');
         } else{
             $text = "📝 <b>" . $data[0]['name'] .  "</b> kanvertkadagi   so`zlar:" . PHP_EOL;
             foreach($words as $value){
                
                 $text .= $value['word'] . PHP_EOL;
             }
-            $buttons = ['🔙 Orqaga'];
+            $buttons = ['🔙 Orqaga', 'Cardni toldrish'];
             $this->sendTextWithKeyboard($buttons,$text);
         }
      

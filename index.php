@@ -51,7 +51,7 @@ if ($text === '/start') {
                     $func->addCard();
                     break;
                 case '🗃 So`zlar':
-                    // Handle '🗃 So`zlar'
+                    $func->words();
                     break;
                 case '📊 Statistika':
                     // Handle '📊 Statistika'
@@ -156,7 +156,17 @@ if ($text === '/start') {
                         $func->cardWords($text);  
                         break;      
                 }  
-                break;          
+                break;  
+        case Page::PAGE_WORDS:
+            switch($text){
+                case '🔙 Orqaga':
+                    $func->allCard();
+                    break; 
+                case 'Cardni toldrish':
+                    $func->addWordPage();
+                    break;    
+            } 
+            break;                
         default:
             // Handle the default case
             break;
