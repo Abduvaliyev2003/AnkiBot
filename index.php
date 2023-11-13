@@ -44,7 +44,7 @@ if ($text === '/start') {
         case Page::PAGE_MAIN:
             switch ($text) {
                 case '🗂 Kartalar':
-                    // Handle '🗂 Kartalar'
+                    $func->allCard();
                     break;
                 case '🗳 Yaratish karta':
                     // Handle '🗳 Yaratish karta'
@@ -139,12 +139,24 @@ if ($text === '/start') {
                             'text' => "[so'z] = [tarjima] shu mormatda yozing"
                         ]);
                     }
-                    
-                   
                     break;   
                   
             }  
-            break;        
+            break;    
+        case Page::PAGE_ALL_CARDS: 
+                switch($text){
+                    case '🔙 Orqaga':
+                        $func->showMenu();
+                        break;
+                    case '🗳 Yaratish karta':
+                        // Handle '🗳 Yaratish karta'
+                        $func->addCard();
+                        break;
+                    case $text:
+                        $func->cardWords($text);  
+                        break;      
+                }  
+                break;          
         default:
             // Handle the default case
             break;

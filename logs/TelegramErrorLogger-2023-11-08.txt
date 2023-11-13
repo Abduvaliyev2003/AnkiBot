@@ -1,0 +1,756 @@
+============[Date]============
+[ 2023-11-08 14:00:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157995
+ref.message.message_id= 394
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699441216
+ref.message.text= 🗂 Kartalar
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(120): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(47): Func->allCard()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 14:00:33  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157997
+ref.message.message_id= 396
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699441230
+ref.message.text= 🗂 Kartalar
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(120): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(47): Func->allCard()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 14:00:33  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99157998
+ref.message.message_id= 397
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699441230
+ref.message.text= 🗂 Kartalar
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(120): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(47): Func->allCard()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:11:15  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158048
+ref.message.message_id= 477
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449072
+ref.message.text= Cardni toldrish
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:11:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158049
+ref.message.message_id= 478
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449088
+ref.message.text= salom
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:12:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158050
+ref.message.message_id= 479
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449128
+ref.message.text= asdas
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:12:19  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158051
+ref.message.message_id= 480
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449136
+ref.message.text= asdas
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:12:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158052
+ref.message.message_id= 481
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449139
+ref.message.text= salom
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:12:27  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158054
+ref.message.message_id= 484
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449144
+ref.message.text= SADSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:12:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158055
+ref.message.message_id= 485
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449148
+ref.message.text= salom
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:12:44  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158056
+ref.message.message_id= 486
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449161
+ref.message.text= SADSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:13:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158059
+ref.message.message_id= 491
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449197
+ref.message.text= ASDSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:13:46  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158063
+ref.message.message_id= 498
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449223
+ref.message.text= SADSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:13:49  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158064
+ref.message.message_id= 499
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449226
+ref.message.text= salom
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:14:09  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158065
+ref.message.message_id= 500
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449246
+ref.message.text= salom
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:14:58  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158066
+ref.message.message_id= 501
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699449295
+ref.message.text= SADSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:28:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158067
+ref.message.message_id= 502
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699450084
+ref.message.text= ASDSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:28:49  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158068
+ref.message.message_id= 503
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699450126
+ref.message.text= ASDSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:31:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158070
+ref.message.message_id= 506
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699450260
+ref.message.text= ASDSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:31:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158071
+ref.message.message_id= 507
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699450267
+ref.message.text= ASDSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+
+============[Date]============
+[ 2023-11-08 16:31:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 99158072
+ref.message.message_id= 508
+ref.message.from.id= 973866955
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asad
+ref.message.from.username= abduvaliyev_asad_07_03
+ref.message.from.language_code= ru
+ref.message.chat.id= 973866955
+ref.message.chat.first_name= Asad
+ref.message.chat.username= abduvaliyev_asad_07_03
+ref.message.chat.type= private
+ref.message.date= 1699450279
+ref.message.text= ASDSD
+
+
+[ref]
+ref.text= 
+
+
+============[Trace]===========
+#0 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\Users\User\Desktop\bot\ankiBot\Telegram.php(177): Telegram->endpoint()
+#3 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(143): Telegram->sendMessage()
+#4 C:\Users\User\Desktop\bot\ankiBot\Function\Func.php(135): Func->sendMessage()
+#5 C:\Users\User\Desktop\bot\ankiBot\index.php(158): Func->cardWords()
+#6 {main}
+

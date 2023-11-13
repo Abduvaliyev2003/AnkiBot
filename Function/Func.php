@@ -113,18 +113,53 @@ class Func {
         $word = $this->word->addWord($text, $data );
         $this->sendMessage('✍️ Yozib olindi');
     }
+    
+    public function allCard()
+    {  
+      
+        $buttons = [];
+        $buttons[] = '🔙 Orqaga';
+        $buttons[] = '🗳 Yaratish karta';
+        foreach($this->card->getCard() as $value)
+        {
+           $buttons[] = $value['name'];  
+        }
+        $this->user->setPage($this->page::PAGE_ALL_CARDS);
+        $this->sendTextWithKeyboard($buttons, "hamma cardlar");
+    }
 
+    public function cardWords($text)
+    {
+        $data = $this->card->getOne('name', $text);
+     
+        $words = $this->word->getOne(intval($data[0]['id']));
+      
+        if($words == [])
+        {
+            $this->sendMessage('So`zlar yoq ');
+        } else{
+            $text = "📝 <b>" . $data[0]['name'] .  "</b> kanvertkadagi   so`zlar:" . PHP_EOL;
+            foreach($words as $value){
+               
+                $text .= $value['word'] . PHP_EOL;
+            }
+            $buttons = ['🔙 Orqaga'];
+            $this->sendTextWithKeyboard($buttons,$text);
+        }
+     
+    }
 
     protected function sendMessage ($text){
         $this->telegram->sendMessage([
             'chat_id'=> $this->chat_id,
+            'parse_mode' => "HTML",
             'text' => $text
         ]);
     }
 
     protected function sendTextWithKeyboard($buttons, $text, $backBtn = false)
     {
-    
+        
         $option = [];
         if (count($buttons) % 2 == 0) {
             for ($i = 0; $i < count($buttons); $i += 2) {

@@ -29,6 +29,22 @@ class Word {
         );
     }
 
+    public function getOne( int $card_id){
+        $chatID = $this->chatID;
+        $data = $this->groupBy(
+           "SELECT  CONCAT(word1, ' - ', word2) AS word FROM `words` WHERE chat_id='$chatID' AND cart_id='$card_id'"
+        );
+
+        return $data;
+    }
+    
+    public function groupBy($sql){
+       
+        $result = $this->pdos->prepare($sql);
+        $result->execute();
+        $arr = $result->fetchAll();
+        return $arr;
+    }
 
 
     public function setValue($sql, $data)
@@ -42,7 +58,7 @@ class Word {
     private function getData()
     {
         $chatID = $this->chatID;
-        $result = $this->pdos->prepare("SELECT * FROM `cart` WHERE chat_id='$chatID'");
+        $result = $this->pdos->prepare("SELECT * FROM `words` WHERE chat_id='$chatID'");
         $result->execute();
         $arr = $result->fetch();
 
