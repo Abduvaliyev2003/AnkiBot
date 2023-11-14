@@ -166,6 +166,16 @@ if ($text === '/start') {
                     $func->addWordPage();
                     break;    
             } 
+            break;
+        case Page::PAGE_ALL_WORDS: 
+            switch($text){
+                case '🔙 Orqaga':
+                    $func->showMenu();
+                    break; 
+                case 'Hammasni korish': 
+                    $func->getAllwords();
+                    break;    
+            }    
             break;                
         default:
             // Handle the default case

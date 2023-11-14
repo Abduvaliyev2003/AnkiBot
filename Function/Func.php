@@ -156,7 +156,19 @@ class Func {
             $buttons = ['🔙 Orqaga', 'Cardni toldrish'];
             $this->sendTextWithKeyboard($buttons,$text);
         }
-     
+    }
+
+    public function getAllwords()
+    {
+        $data  = $this->word->all();
+        $text = "📝 <b> Hamma so`zlar:</b>" . PHP_EOL;
+        foreach($data as $value){
+           
+            $text .= $value['word'] . PHP_EOL;
+        }
+
+        $buttons = ['🔙 Orqaga'];
+        $this->sendTextWithKeyboard($buttons,$text);
     }
 
     protected function sendMessage ($text){

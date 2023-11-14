@@ -14,6 +14,15 @@ class Word {
         $this->chatID = $chatID;
         $this->pdos = $pdo;
     }
+
+    public function all() {
+        $chatID = $this->chatID;
+        $data = $this->groupBy(
+           "SELECT  CONCAT(word1, ' - ', word2) AS word FROM `words` WHERE chat_id='$chatID'"
+        );
+
+        return $data;
+    }
     
     public function addWord($text, $card_id)
     {
